@@ -2,7 +2,7 @@ import { FFmpeg } from '@ffmpeg/ffmpeg';
 import { toBlobURL } from '@ffmpeg/util';
 
 const CORE_VERSION = '0.12.6';
-const BASE_URL = `https://ffmpeg.davyang.online/ffmpeg/${CORE_VERSION}`;
+const BASE_URL = `https://ffmpeg.davyhome.online/ffmpeg/${CORE_VERSION}`;
 
 let ffmpegInstance: FFmpeg | null = null;
 let loadingPromise: Promise<FFmpeg> | null = null;
